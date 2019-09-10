@@ -3,8 +3,8 @@
 
   <!-- start world -->
   <node name="gazebo" pkg="gazebo_ros" type="gazebo"
-   args="$(find multi_turtlebots_sim)/turtlebot3_description/world/turtlebot_house.world" respawn="false" output="screen" />
+   args="$(find multi_turtlebots_sim)/turtlebot3_description/world/turtlebot3_house.world" respawn="false" output="screen" />
 
   <!-- include our robots -->
-  <include file="$(find multiple_turtlebots_sim)/launch/robots.launch"/>
+  <include file="$(find multi_turtlebots_sim)/launch/robots.launch"/>
 </launch>
