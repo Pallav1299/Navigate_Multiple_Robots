@@ -1,13 +1,13 @@
 <launch>
 
   <arg name="use_map_topic"   default="false"/>
-  <arg name="scan_topic"      default="/robot3/kobuki/laser/scan"/>
+  <arg name="scan_topic"      default="/robot3/scan"/>
   <arg name="initial_pose_x"  default="1.0"/>
   <arg name="initial_pose_y"  default="-6.0"/>
   <arg name="initial_pose_a"  default="0.0"/>
   <arg name="odom_frame_id"   default="robot3_tf/odom"/>
   <arg name="base_frame_id"   default="robot3_tf/base_footprint"/>
-  <arg name="global_frame_id" default="/map"/>
+  <arg name="global_frame_id" default="map"/>
 
   <node pkg="amcl" type="amcl" name="robot3_amcl">
     <param name="use_map_topic"             value="$(arg use_map_topic)"/>
