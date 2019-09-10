@@ -1,0 +1,24 @@
+<launch>
+  <param name="/use_sim_time" value="true"/>
+
+  <!-- Run the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find map_launcher)/map/map.yaml" >
+    <param name="frame_id" value="/map" />
+  </node>
+
+
+
+ <!-- Properties of each robot      -->
+    
+   <!-- AMCL      -->
+
+    <include file="$(find multi_turtlebots_nav)/launch/amcl_robot1.launch" />
+    <include file="$(find multi_turtlebots_nav)/launch/amcl_robot2.launch" />
+    <include file="$(find multi_turtlebots_nav)/launch/amcl_robot3.launch" />
+    
+
+<!-- Launching Rviz      -->
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find map_launcher)/rviz/navigation.rviz" />
+
+</launch>
