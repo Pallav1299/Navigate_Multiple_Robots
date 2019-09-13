@@ -18,7 +18,12 @@
     <include file="$(find multi_turtlebots_nav)/launch/amcl_robot1.launch" />
     <include file="$(find multi_turtlebots_nav)/launch/amcl_robot2.launch" />
     <include file="$(find multi_turtlebots_nav)/launch/amcl_robot3.launch" />
-    
+
+   <!--MOVE_BASE-->
+
+	<include file="$(find multi_turtlebots_nav)/launch/move_base_1.launch" />
+	<include file="$(find multi_turtlebots_nav)/launch/move_base_2.launch" />	
+	<include file="$(find multi_turtlebots_nav)/launch/move_base_3.launch" />
 
 <!-- Launching Rviz      -->
 
