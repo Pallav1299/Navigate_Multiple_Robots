@@ -27,6 +27,6 @@
 
 <!-- Launching Rviz      -->
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find map_launcher)/rviz/navigation.rviz" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find map_launcher)/rviz/turtlebot3_navigation.rviz" />
 
 </launch>
