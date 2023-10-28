@@ -1,4 +1,4 @@
-# Navigate_Multiple_Robots
+# Navigate Multiple Turtlebots
 
 ![alt text](https://github.com/Barath19/Navigate_Multiple_Turtlebots/blob/master/banner.png?raw=true)
 
