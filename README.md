@@ -41,3 +41,7 @@ roslaunch multi_turtlebots_nav navigation.launch
 ### Repeat the above two localization steps for all the robots, Until the particles converge.
 
 ![alt text](assets/rviz.png)
+
+## Issue
+
+- Check the map.yaml file for path.
