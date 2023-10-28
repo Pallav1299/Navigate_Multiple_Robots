@@ -1,6 +1,6 @@
 # Navigate_Multiple_Robots
 
-![alt text](https://raw.githubusercontent.com/Pallav1299/Navigate_Multiple_Robots/master/thumbnail.png)
+![alt text](https://github.com/Barath19/Navigate_Multiple_Turtlebots/blob/master/banner.png?raw=true)
 
 How to navigate multiple robots in simulation using ROS and Gazebo.
 
